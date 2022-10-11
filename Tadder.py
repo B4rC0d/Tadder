@@ -4,7 +4,7 @@ from os import system  as term
 try:
     from platform import system
 except:
-    system("pip install platform")
+    term("pip install platform")
 #____________________________________________________________________________________
 
 apiId = 123456 # The API ID of your Telegram account
